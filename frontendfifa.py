@@ -4,7 +4,6 @@ import numpy as np
 import streamlit as st
 import pickle
 
-
 # Set page configuration
 st.set_page_config(
     page_title="Player Rating Prediction ⚽",
