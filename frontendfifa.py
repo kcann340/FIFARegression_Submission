@@ -1,9 +1,4 @@
-# Importing necessary libraries
-import pandas as pd
-import numpy as np
-import streamlit as st
-import pickle
-from sklearn.preprocessing import StandardScaler
+
 
 # Set page configuration
 st.set_page_config(
