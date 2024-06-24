@@ -22,7 +22,7 @@ def scale_input(user_input):
     return pd.DataFrame(scaled_input, columns=user_input_df.columns)
 
 # Load trained model 
-with open('ensemble_model.pkl', 'rb') as file:
+with open('best_xgb_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Feature names
